@@ -1,0 +1,65 @@
+
+.userForm{
+    width:30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid rgb(129, 181, 236);
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.btn{
+    padding: 3px;
+    font-size: 15px;
+    background: rgb(129, 181, 236);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    max-width: 100%;
+}
+
+.header{
+    text-align: center;
+    margin: 0px auto;
+    padding: 15px;
+    width: 30%;
+    background:  rgb(129, 181, 236);
+    border: 10px 10px 0px 0px
+}
+
+.paragraph{
+    margin-top:50px;
+    font-size: 25px;
+    text-align: center;
+    border: 1px  rgb(129, 181, 236);
+    border-radius: 5px;
+}
+
+li{
+    position: relative;
+    list-style: none;
+    width: 100%;
+    font-size: 25px;
+    border: 1px solid;
+    right: 20px;
+    border-color: rgb(129, 181, 236);
+    text-align: center;
+}
+
+li:hover{
+    background:rgb(129, 181, 236);
+}
+
+@media (max-width:700px){
+    input{
+        width: 100%;
+    }
+    .paragraph{
+        font-size: 100%;
+    }
+    li,.btn{
+        width: 100%;
+        font-size: 100%;
+    }
+}

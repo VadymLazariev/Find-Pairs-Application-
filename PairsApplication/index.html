@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h2 class="header">Find Pairs App</h2>
+<div class="userForm">
+    <form onsubmit="return false">
+        <label for="userNumber"> Number: </label>
+        <input style="text-align:center"id="userNumber" type="number" min="0" required>
+        <button class="btn" onclick="findPairs()">Find pairs</button>
+    </form>
+
+    <p class="paragraph" id="numbers"></p>
+    <p class="paragraph">Existing Pairs:</p>
+    <ul id="pairList" ></ul>
+</div>
+</body>
+</html>
